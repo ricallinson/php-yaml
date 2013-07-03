@@ -1,1 +1,15 @@
 # Php-yaml
+
+This is a [php-require](https://github.com/ricallinson/php-require) module which contains the [spyc](https://github.com/mustangostang/spyc) YAML parser.
+
+    require("../node_modules/php-require/index.php");
+
+	$yaml = $require("../");
+
+	$yaml->load("./config.yaml");
+
+	$yaml->dump(["a", "b"]);
+
+	$yaml->parse($yaml->dump(["c", "d"]));
+
+	$config = $require("./config.yaml");
