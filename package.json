@@ -12,6 +12,7 @@
     "dependencies" : {
     },
     "devDependencies" : {
+        "php-require": "git://github.com/ricallinson/php-require.git#master"
     },
     "repository": {
         "type": "git",
