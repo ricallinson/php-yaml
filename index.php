@@ -1084,22 +1084,22 @@ do {
 } while (0);
 
 /*
-	Expose the Spyc functions in a singleton.
+	  Expose the Spyc functions in a singleton.
 */
 
 class PhpYaml {
 
-	public function parse($str) {
-		return Spyc::YAMLLoadString($str);
-	}
+	  public function parse($str) {
+		    return Spyc::YAMLLoadString($str);
+	  }
 
-	public function load($filename) {
-		return Spyc::YAMLLoad($filename);
-	}
+	  public function load($filename) {
+		    return Spyc::YAMLLoad($filename);
+	  }
 
-	public function dump($data) {
-		return Spyc::YAMLDump($data);
-	}
+	  public function dump($data) {
+		    return Spyc::YAMLDump($data);
+	  }
 }
 
 $module->exports = new PhpYaml();
@@ -1113,4 +1113,3 @@ Module::$extensions[".yml"] = function ($module, $filename) {
 };
 
 Module::$extensions[".yaml"] = Module::$extensions[".yml"];
-

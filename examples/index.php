@@ -15,3 +15,5 @@ var_dump($yaml->parse($yaml->dump(["c", "d"])));
 var_dump($require("./configs/yaml.yaml"));
 
 var_dump($require("./configs/yml.yml"));
+
+var_dump(Spyc::YAMLLoad("./configs/yml.yml"));
