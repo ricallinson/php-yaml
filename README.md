@@ -4,7 +4,7 @@ This is a [php-require](https://github.com/ricallinson/php-require) module which
 
     require("../node_modules/php-require/index.php");
 
-	$yaml = $require("../");
+	$yaml = $require("php-yaml");
 
 	$yaml->load("./config.yaml");
 
