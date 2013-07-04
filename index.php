@@ -1,5 +1,5 @@
 <?php
-require("./spyc/Spyc.php");
+require(__DIR__ . "/spyc/Spyc.php");
 
 /*
 	  Expose the Spyc functions in a singleton.
