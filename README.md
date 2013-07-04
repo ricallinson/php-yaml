@@ -1,6 +1,6 @@
 # Php-yaml
 
-This is a [php-require](https://github.com/ricallinson/php-require) module which contains the [spyc](https://github.com/mustangostang/spyc) YAML parser.
+This is a [php-require](https://github.com/ricallinson/php-require) module which packages the [spyc](https://github.com/mustangostang/spyc) YAML parser.
 
     require("../node_modules/php-require/index.php");
 
