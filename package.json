@@ -1,10 +1,10 @@
 {
     "name": "php-yaml",
-    "description": "YAML parser PHP Require module",
+    "description": "YAML wrapper for php-require.",
     "version": "0.0.1",
     "author": {
-        "name": "Richard S Allinson",
-        "email": "rsa@ricallinson.com"
+        "name": "Ric Allinson",
+        "email": "npm@ricallinson.com"
     },
     "engines": {
         "php": ">= 5.4.0"
